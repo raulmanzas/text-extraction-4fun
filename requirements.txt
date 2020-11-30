@@ -1,0 +1,12 @@
+boto3==1.16.25
+botocore==1.19.25
+click==7.1.2
+jmespath==0.10.0
+numpy==1.19.4
+pandas==1.1.4
+pkg-resources==0.0.0
+python-dateutil==2.8.1
+pytz==2020.4
+s3transfer==0.3.3
+six==1.15.0
+urllib3==1.26.2
