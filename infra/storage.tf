@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "us-west-1"
-}
 
 resource "aws_s3_account_public_access_block" "global_block_public_access" {
   block_public_acls   = true
@@ -13,6 +10,6 @@ resource "aws_s3_bucket" "documents_bucket" {
   acl    = "private"
 
   tags = {
-    Env = "poc-textract-docs"
+    Env = local.env
   }
 }
